@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailNewsCell" rowHeight="147" id="JrI-zP-L1r" customClass="DetailNewsCell" customModule="Cryptonomy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="147"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="JrI-zP-L1r" id="fh2-7B-drR">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="146.66666666666666"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gab-S8-esv">
+                        <rect key="frame" x="15" y="15" width="250" height="45"/>
+                        <attributedString key="attributedText">
+                            <fragment content="Alleged Fraudster Arresred china Over $15M Mining Hardware Con">
+                                <attributes>
+                                    <font key="NSFont" metaFont="system" size="16"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="9" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin News - 17m ago" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNJ-aa-Xd3">
+                        <rect key="frame" x="15" y="116.66666666666667" width="345" height="20.000000000000014"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="p4D-lb-IIb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="13"/>
+                        <color key="textColor" red="0.57254901960000004" green="0.62352941179999999" blue="0.68627450980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uwK-AS-ABc">
+                        <rect key="frame" x="15" y="70" width="250" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="WUg-Tq-Awg"/>
+                        </constraints>
+                        <attributedString key="attributedText">
+                            <fragment content="What happens when an image of you became the top google resilt">
+                                <attributes>
+                                    <color key="NSColor" red="0.63529411764705879" green="0.67450980392156867" blue="0.72549019607843135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <font key="NSFont" metaFont="system" size="14"/>
+                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" tighteningFactorForTruncation="0.0"/>
+                                </attributes>
+                            </fragment>
+                        </attributedString>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wjy-8l-8v8">
+                        <rect key="frame" x="280" y="15" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="80" id="4UR-oB-ljt"/>
+                            <constraint firstAttribute="height" constant="80" id="dFC-wc-Stf"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Gab-S8-esv" firstAttribute="top" secondItem="fh2-7B-drR" secondAttribute="top" constant="15" id="08O-i6-HBY"/>
+                    <constraint firstAttribute="bottom" secondItem="eNJ-aa-Xd3" secondAttribute="bottom" constant="10" id="GDn-WR-4Bu"/>
+                    <constraint firstItem="eNJ-aa-Xd3" firstAttribute="leading" secondItem="fh2-7B-drR" secondAttribute="leading" constant="15" id="JyE-ID-vdw"/>
+                    <constraint firstItem="Wjy-8l-8v8" firstAttribute="top" secondItem="Gab-S8-esv" secondAttribute="top" id="K7M-HZ-XhJ"/>
+                    <constraint firstItem="uwK-AS-ABc" firstAttribute="leading" secondItem="fh2-7B-drR" secondAttribute="leading" constant="15" id="PjG-aw-lIk"/>
+                    <constraint firstItem="Wjy-8l-8v8" firstAttribute="leading" secondItem="uwK-AS-ABc" secondAttribute="trailing" constant="15" id="RIb-6h-9V0"/>
+                    <constraint firstItem="Wjy-8l-8v8" firstAttribute="leading" secondItem="Gab-S8-esv" secondAttribute="trailing" constant="15" id="TRr-3G-PU9"/>
+                    <constraint firstItem="uwK-AS-ABc" firstAttribute="top" secondItem="Gab-S8-esv" secondAttribute="bottom" constant="10" id="doe-Ay-leq"/>
+                    <constraint firstItem="eNJ-aa-Xd3" firstAttribute="top" secondItem="uwK-AS-ABc" secondAttribute="bottom" constant="10" id="hCV-QI-gM1"/>
+                    <constraint firstAttribute="trailing" secondItem="Wjy-8l-8v8" secondAttribute="trailing" constant="15" id="qza-F9-c89"/>
+                    <constraint firstItem="Gab-S8-esv" firstAttribute="leading" secondItem="fh2-7B-drR" secondAttribute="leading" constant="15" id="sNh-vC-SFg"/>
+                    <constraint firstAttribute="trailing" secondItem="eNJ-aa-Xd3" secondAttribute="trailing" constant="15" id="t41-k3-Rji"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgNews" destination="Wjy-8l-8v8" id="mC4-XF-nqp"/>
+                <outlet property="lblNewsDescription" destination="uwK-AS-ABc" id="S2x-jt-N28"/>
+                <outlet property="lblNewsTitle" destination="Gab-S8-esv" id="ycb-bb-COQ"/>
+                <outlet property="lblTimeAgo" destination="eNJ-aa-Xd3" id="6nD-o2-u7l"/>
+            </connections>
+            <point key="canvasLocation" x="399" y="-1442"/>
+        </tableViewCell>
+    </objects>
+</document>

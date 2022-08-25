@@ -1,0 +1,674 @@
+{
+"Crypto-Terms" : {
+    "51% attack" : {
+      "definitions" : "A condition in which more than half the computing power of a cryptocurrency network is controlled by a single malicious miner or group of miners. If he controls 51% of the network that makes him the authority on the network, giving him the power to spend the same coins multiple times, issue transactions that conflict with someone else’s or stop someone else’s transaction from being confirmed",
+      "term" : "51% Attack",
+      "youtubeLink" : "FiAstewkdCA"
+    },
+    "address" : {
+      "definitions" : "(Cryptocurrency addresses) are used to receive and send transactions on the network. An address is a string of alphanumeric characters, but can also be represented as a scannable QR code. Example: 1CBtcGivXmHQ8ZqdPgeMfcpQNJrqTrSAcG",
+      "term" : "Address",
+      "youtubeLink" : ""
+    },
+    "agreement ledgers" : {
+      "definitions" : "Agreement ledgers are distributed ledgers used by two or more parties to negotiate and reach agreement.",
+      "term" : "Agreement Ledgers",
+      "youtubeLink" : ""
+    },
+    "airdrop" : {
+      "definitions" : "A method of distributing cryptocurrency amongst a population, first attempted with Auroracoin in early 2014. During an airdrop, a coin/token is distributed to the community for free or for small tasks. This is done to ensure early distribution and to have as many people with \"skin in the game\" as possible. ",
+      "term" : "Airdrop",
+      "youtubeLink" : ""
+    },
+    "algortihm" : {
+      "definitions" : " A process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer.",
+      "term" : "Algortihm",
+      "youtubeLink" : ""
+    },
+    "altcoin" : {
+      "definitions" : "The term “altcoin” describes any cryptocurrency alternative to Bitcoin. For example, Ripple, Litecoin, and Ethereum are all technically “altcoins.”",
+      "term" : "Altcoin",
+      "youtubeLink" : ""
+    },
+    "aml" : {
+      "definitions" : "Anti-Money Laundering laws are a series of regulations designed to prevent money being converted from criminal activity to what appear to be legitimate assets.",
+      "term" : "AML",
+      "youtubeLink" : ""
+    },
+    "angel investor" : {
+      "definitions" : "A wealthy individual who provides startup businesses with capital in exchange for debt or equity in the business.",
+      "term" : "Angel Investor",
+      "youtubeLink" : ""
+    },
+    "arbitrage" : {
+      "definitions" : "The act of buying and selling on different exchanges to earn the difference in the spread. Arbitrage opportunities occur due to differences in exchange reputation, community coin preferences and ease of bank funding. Take note that fees, limits and prices could change anytime when you are transferring your coins between exchanges, especially during volatile times.",
+      "term" : "Arbitrage",
+      "youtubeLink" : ""
+    },
+    "asic" : {
+      "definitions" : "An Application-Specific-Integrated-Circuit is a customised microchip usually used to perform a narrow set of tasks. For Bitcoin, they process the SHA 256 algorithm in order to mine bitcoins.",
+      "term" : "ASIC",
+      "youtubeLink" : ""
+    },
+    "ath" : {
+      "definitions" : "Short form for “All-Time High”. Therefore it means the highest historical price of a specific coin",
+      "term" : "ATH",
+      "youtubeLink" : ""
+    },
+    "attestation ledger" : {
+      "definitions" : "Attestation ledgers are distributed ledgers that provide a durable record of agreements, commitments or statements, providing evidence (attestation) that these agreements, commitments or statements were made.",
+      "term" : "Attestation Ledger",
+      "youtubeLink" : ""
+    },
+    "bag holder" : {
+      "definitions" : "A term to refer to a trader who bought in at a high and missed his opportunity to sell, leaving him with worthless coins.",
+      "term" : "Bag Holder",
+      "youtubeLink" : ""
+    },
+    "base58" : {
+      "definitions" : "Base58 encodes binary data into text and is used to encode Bitcoin addresses. Created by Satoshi Nakamoto, its alphanumeric characters exclude \"0\", \"O\", \"I\", “l\" since they are hard to distinguish. Addresses are written in Base58.",
+      "term" : "Base58",
+      "youtubeLink" : ""
+    },
+    "base58check" : {
+      "definitions" : "A variant of Base58 used to detect typing errors in bitcoin addresses.",
+      "term" : "Base58Check",
+      "youtubeLink" : ""
+    },
+    "bip" : {
+      "definitions" : "An acronym for “Bitcoin Improvement Proposals” which can be submitted by anyone who wants to improve the Bitcoin network. ",
+      "term" : "BIP",
+      "youtubeLink" : ""
+    },
+    "bitcoin" : {
+      "definitions" : "Bitcoin is a digital currency (also called crypto-currency) that is not backed by any country's central bank or government. Bitcoins can be traded for goods or services with vendors who accept Bitcoins as payment.   Bitcoin-to-Bitcoin transactions are made by digitally exchanging anonymous, heavily encrypted hash codes across a peer-to-peer (P2P) network. The P2P network monitors and verifies the transfer of Bitcoins between users. Each user's Bitcoins are stored in a program called a digital wallet, which also holds each address the user sends and receives Bitcoins from, as well as a private key known only to the user.   The Bitcoin network is designed to mathematically generate no more than 21 million Bitcoins and the network is set up to regulate itself to deal with inflation. Bitcoins can be spent by initiating a transfer request from a Bitcoin address in the customer's wallet to a Bitcoin address in the vendor's wallet.",
+      "term" : "Bitcoin",
+      "youtubeLink" : ""
+    },
+    "bitcoin atm" : {
+      "definitions" : "A cash point where people can trade fiat currency and bitcoins",
+      "term" : "Bitcoin ATM",
+      "youtubeLink" : ""
+    },
+    "bitcoin cash" : {
+      "definitions" : "Bitcoin Cash (BCH) is a hard forked version of the original Bitcoin. It is similar to bitcoin with regards to its protocol; Proof of Work SHA-256 hashing, 21,000,000 supply, same block times and reward system. However two main differences are the the blocksize limits, as of August 2017 Bitcoin has a 1MB blocksize limit whereas BCH proposes 8MB blocks. Also BCH will adjust the difficulty every 6 blocks as opposed to 2016 blocks as with Bitcoin.",
+      "term" : "Bitcoin Cash",
+      "youtubeLink" : ""
+    },
+    "bitcoin days destroyed" : {
+      "definitions" : "An estimate for the “velocity of money” within the Bitcoin network. This is used because it gives greater weight to bitcoins that have not been spent for a long time, and better represents the level of economic activity taking place with bitcoin than total transaction volume per day.",
+      "term" : "Bitcoin Days Destroyed",
+      "youtubeLink" : ""
+    },
+    "bitcoin network" : {
+      "definitions" : "The decentralised, peer-to-peer network which maintains the blockchain. This is what processes all Bitcoin transactions. ",
+      "term" : "Bitcoin Network",
+      "youtubeLink" : ""
+    },
+    "bitcoin price index(bpi)" : {
+      "definitions" : "Brave New coin’s BPI is calculated by converting each Market Weighted Average from its market currency to USD and then taking the weighted average across all the markets based on the total volume traded in each. ",
+      "term" : "Bitcoin Price Index(BPI)",
+      "youtubeLink" : ""
+    },
+    "bitcoin protocol" : {
+      "definitions" : "The open source, cryptographic protocol which operates on the Bitcoin network, setting the “rules” for how the network runs.",
+      "term" : "Bitcoin Protocol",
+      "youtubeLink" : ""
+    },
+    "bitcoinjs" : {
+      "definitions" : "An online library of javascript code used for Bitcoin development, particularly web wallets.bitcoinjs.org",
+      "term" : "BitcoinJS",
+      "youtubeLink" : ""
+    },
+    "bitcoinqt" : {
+      "definitions" : "Bitcoin QT is an open source software client used by your computer.It contains a copy of the blockchain and once installed it turns your computer into a node in the Bitcoin Network. Also acts as a “desktop wallet”.",
+      "term" : "BitcoinQT",
+      "youtubeLink" : ""
+    },
+    "block cipher" : {
+      "definitions" : "Block ciphers are a method of encrypting text (to produce ciphertext) in which a cryptographic key and algorithm are applied to a block of data at once as a group rather than to one bit at a time.",
+      "term" : "Block Cipher",
+      "youtubeLink" : ""
+    },
+    "block explorer" : {
+      "definitions" : "Block explorer is an online tool to view all transactions, past and current, on the blockchain. They provide useful information such as network hash rate and transaction growth.",
+      "term" : "Block Explorer",
+      "youtubeLink" : ""
+    },
+    "block header" : {
+      "definitions" : "Contains information about a block, such as the hash of the previous block header, its version number, the current target, a timestamp, and a nonce.",
+      "term" : "Block Header",
+      "youtubeLink" : ""
+    },
+    "block height" : {
+      "definitions" : "Block height refers to the number of blocks connected together in the block chain. For example, Height 0, would be the very first block, which is also called the Genesis Block.",
+      "term" : "Block Height",
+      "youtubeLink" : ""
+    },
+    "block reward" : {
+      "definitions" : "Block rewards are rewards given to a miner which has successfully hashed a transaction block. Block rewards can be a mixture of coins and transaction fees, depending on the policy used by the cryptocurrency in question, and whether all of the coins have already been successfully mined.",
+      "term" : "Block Reward",
+      "youtubeLink" : ""
+    },
+    "blockchain" : {
+      "definitions" : "A blockchain is a type of distributed ledger, comprised of unchangable, digitally recorded data in packages called blocks (rather like collating them on to a single sheet of paper). Each block is then ‘chained’ to the next block, using a cryptographic signature. This allows block chains to be used like a ledger, which can be shared and accessed by anyone with the appropriate permissions.",
+      "term" : "Blockchain",
+      "youtubeLink" : ""
+    },
+    "borrowing rate" : {
+      "definitions" : "When you open a leveraged position, you will be borrowing coins at a pre-determined rate. This rate will be added to reflect your position’s overall profit and loss.",
+      "term" : "Borrowing Rate",
+      "youtubeLink" : ""
+    },
+    "bot trading" : {
+      "definitions" : "Software programs that operate on trading platforms, executing buy and sell orders with pre-programmed trading instructions. ",
+      "term" : "Bot Trading",
+      "youtubeLink" : ""
+    },
+    "brain wallet" : {
+      "definitions" : "A bitcoin wallet which uses a long string of words to secure its coins. This “passphrase” can be memorised, allowing the wallet owner to spend bitcoins by simply remembering the passphrase. ",
+      "term" : "Brain Wallet",
+      "youtubeLink" : ""
+    },
+    "btc" : {
+      "definitions" : "An acronym for bitcoin. A single unit of the bitcoin currency.",
+      "term" : "BTC",
+      "youtubeLink" : ""
+    },
+    "btfd" : {
+      "definitions" : "“Buy The Fucking Dip” – When people are running around and selling because of fear, this is the time to buy.",
+      "term" : "BTFD",
+      "youtubeLink" : ""
+    },
+    "buy & sell walls" : {
+      "definitions" : "A wall as seen in the depth chart of exchanges is an amalgamation of limit orders of the same price target.",
+      "term" : "Buy & Sell Walls",
+      "youtubeLink" : ""
+    },
+    "cardano" : {
+      "definitions" : "Designed and developed by IOHK in conjunction with the University of Edinburgh, the University of Athens and the University of Connecticut, Cardano SL (or Cardano Settlement Layer) is a Proof of Stake cryptocurrency based on the Haskell implementation of the white paper “Ouroboros: A Provably Secure Proof of Stake Blockchain Protocol” by Aggelos Kiayias, Alexander Russell, Bernardo David and Roman Oliynykov.",
+      "term" : "Cardano",
+      "youtubeLink" : ""
+    },
+    "central ledger" : {
+      "definitions" : "A central ledger refers to a ledger maintained by a central agency.",
+      "term" : "Central Ledger",
+      "youtubeLink" : ""
+    },
+    "chain linking" : {
+      "definitions" : "Chain linking is the process of connecting two blockchains with each other, thus allowing transactions between the chains to take place. This will allow blockchains like Bitcoin to communicate with other sidechains, allowing the exchange of assets between them",
+      "term" : "Chain Linking",
+      "youtubeLink" : ""
+    },
+    "cipher" : {
+      "definitions" : "A cipher is the algorithm used for the encryption and/or decryption of information. In common language, ‘cipher’ is also used to refer to an encryption message, also known as ‘code’.",
+      "term" : "Cipher",
+      "youtubeLink" : ""
+    },
+    "circulating supply" : {
+      "definitions" : "The price of a coin has no meaning on its own. However, the price of a coin, when multiplied by the circulating supply, gives the coin’s market cap.",
+      "term" : "Circulating Supply",
+      "youtubeLink" : ""
+    },
+    "cloud mining" : {
+      "definitions" : "Classical cryptocurrency mining requires huge investments in hardware and electricity. Cloud mining companies aim to make mining accessible to everybody. People just can log in to a website and invest money in the company which already has mining datacenters. The money is managed by the company and it is invested in mining equipment. Investors get a share of the revenue. The disadvantage for the user is that cloud mining has low returns compared to traditional mining.",
+      "term" : "Cloud Mining",
+      "youtubeLink" : ""
+    },
+    "confirmation" : {
+      "definitions" : "Confirmation means that the blockchain transaction has been verified by the network. This happens through a process known as mining, in a proof-of-work system (e.g. Bitcoin). Once a transaction is confirmed, it cannot be reversed or double spent. The more confirmations a transaction has, the harder it becomes to perform a double spend attack.",
+      "term" : "Confirmation",
+      "youtubeLink" : ""
+    },
+    "consensus process" : {
+      "definitions" : "The method of action for network or project creators to decide on changes to the decentralized system. Bitcoin uses a Proof-of-Work consensus process whereas NEO uses a Proof-of-Stake consensus.",
+      "term" : "Consensus Process",
+      "youtubeLink" : ""
+    },
+    "consortium blockchain" : {
+      "definitions" : "A consortium blockchain is a blockchain where the consensus process is controlled by a pre-selected set of nodes; for example, one might imagine a consortium of 15 financial institutions, each of which operates a node and of which ten must sign every block for the block to be valid. The right to read the blockchain may be public or restricted to the participants. There are also hybrid routes such as the root hashes of the blocks being public together with an API that allows members of the public to make a limited number of queries and get back cryptographic proofs of some parts of the blockchain state. These blockchains may be considered “partially decentralized”.",
+      "term" : "Consortium Blockchain",
+      "youtubeLink" : ""
+    },
+    "cryptoanalysis" : {
+      "definitions" : "Cryptoanalysis is the study of methods for obtaining the meaning of encrypted information, without access to the secret information that is normally required to do so.",
+      "term" : "Cryptoanalysis",
+      "youtubeLink" : ""
+    },
+    "cryptocurrency " : {
+      "definitions" : "Cryptocurrencies are a form of digital currency based on mathematics, where encryption techniques are used to regulate the generation of units of currency and verify the transfer of funds. Furthermore, cryptocurrencies operate independently of a central bank.",
+      "term" : "Cryptocurrency ",
+      "youtubeLink" : ""
+    },
+    "cryptographic hash functions" : {
+      "definitions" : "The cryptographic hash function is a mathematical algorithm that takes a particular input which can be any kind of digital data be it a password or jpeg file and produces a single fixed length output. Some examples of different hash function algorithms are MD5, MD4 or SHA256. The last one is used in the Bitcoin protocol. Main properties: (1) easy to compute hash value for any given message (2) infeasible to generate a message from its hash except by trying all possible input combinations(brute force attack) (3) infeasible to modify a message without changing the hash (4) infeasible to find two different messages with the same hash (5) deterministic so the same message always results in the same hash. Cryptographic hash functions have many information security applications, notably in digital signatures, message authentication codes (MACs), and other forms of authentication. They can also be used as ordinary hash functions, to index data in hash tables, for fingerprinting, to detect duplicate data or uniquely identify files, and as checksums to detect accidental data corruption",
+      "term" : "Cryptographic Hash Functions",
+      "youtubeLink" : ""
+    },
+    "cryptography" : {
+      "definitions" : "Cryptography refers to the process of encrypting and decrypting information.",
+      "term" : "Cryptography",
+      "youtubeLink" : ""
+    },
+    "cryptojacking " : {
+      "definitions" : "Cryptojacking is referred as a secret use of a device to mine cryptocurrency. The first widely known attempt for cryptojacking was the torrent tracker Piratebay. They enabled an in-browser mining software so when somebody visits the website his/her computer will start mining cryptocurrency via the browser. Users started noticing the unusual behavior in their browsers and Piratebay took down the software. There have been many attempts for cryptojacking since then. The easiest way to find out if a computer is mining cryptocurrency is to check the resources monitor for unusual CPU behavior or using the debug console of your browser an look for mining scripts. Developers also released Chrome browser extensions to protect users from mining occurring on their devices.",
+      "term" : "Cryptojacking ",
+      "youtubeLink" : ""
+    },
+    "dao (decentralized autonomous organization)" : {
+      "definitions" : "A DAO (Decentralized Autonomous Organization) can be thought of as a corporation run without any human involvement under the control of an incorruptible set of business rules.",
+      "term" : "DAO (Decentralized Autonomous Organization)",
+      "youtubeLink" : ""
+    },
+    "dapp" : {
+      "definitions" : "A dApp is a decentralized application that must be completely open-source, it must operate autonomously, and with no entity controlling the majority of its tokens.",
+      "term" : "DAPP",
+      "youtubeLink" : ""
+    },
+    "dash" : {
+      "definitions" : "DigitalCash (DASH) uses a new chained hashing algorithm approach, with many new scientific hashing algorithms for the proof-of-work. DASH aims to be the first privacy-centric cryptographic currency with fully encrypted transactions and anonymous block transactions, this feature is called PrivateSend and can be found on the official Dashcore wallet.",
+      "term" : "DASH",
+      "youtubeLink" : ""
+    },
+    "ddos" : {
+      "definitions" : "Short form for ‘Distributed Denial of Service’. A well-timed DDoS attack at exchanges during volatile movements may be devastating as traders will not be able to execute any order manually and will be at the mercy of their pre-set, or the lack of, limit orders.",
+      "term" : "DDOS",
+      "youtubeLink" : ""
+    },
+    "decryption" : {
+      "definitions" : "Decryption is the process of turning cipher-text back into plaintext",
+      "term" : "Decryption",
+      "youtubeLink" : ""
+    },
+    "difficulty" : {
+      "definitions" : "Difficulty, in Proof-of-Work mining, is how hard it is to verify blocks in a blockchain network. In the Bitcoin network, the difficulty of mining adjusts verifying blocks every 2016 blocks. This is to keep block verification time at ten minutes.",
+      "term" : "Difficulty",
+      "youtubeLink" : ""
+    },
+    "digital commodity" : {
+      "definitions" : "A digital commodity is a scarce, electronically transferrable, intangible, with a market value. Notable examples include CryptoKitties, CryptoPets, and Leci Gou.",
+      "term" : "Digital Commodity",
+      "youtubeLink" : ""
+    },
+    "digital identity" : {
+      "definitions" : "A digital identity is an online or networked identity adopted or claimed in cyberspace by an individual, organization, or electronic device.",
+      "term" : "Digital Identity",
+      "youtubeLink" : ""
+    },
+    "distributed ledgers" : {
+      "definitions" : "Distributed ledgers are a type of database that are spread across multiple sites, countries or institutions. Records are stored one after the other in a continuous ledger. Distributed ledger data can be either “permissioned” or “unpermissioned” to control who can view it.",
+      "term" : "Distributed Ledgers",
+      "youtubeLink" : ""
+    },
+    "dogecoin" : {
+      "definitions" : "A Bitcoin clone that has reached success through clever marketing. Over the past year well over a hundred new cryptocurrencies have been created but not many have instantly carved out a niche. Dogecoin has sponsored multiple high profile events such as Nascar teams and the winter olympics - even so there are few locations to use the coin - and instead it has become a de facto internet tipping currency. The coin has produced 100 billion units by the end of 2014 and is now producing roughly 5 billion units per year.",
+      "term" : "DogeCoin",
+      "youtubeLink" : ""
+    },
+    "double spend" : {
+      "definitions" : "Double spend refers to a scenario, in the Bitcoin network, where someone tries to send a bitcoin transaction to two different recipients at the same time. However, once a bitcoin transaction is confirmed, it makes it nearly impossible to double spend it. The more confirmations that a particular transaction has, the harder it becomes to double spend the bitcoins.",
+      "term" : "Double Spend",
+      "youtubeLink" : ""
+    },
+    "encryption" : {
+      "definitions" : "Encryption is the process of turning a clear-text message (plaintext) into a data stream (cipher-text), which looks like a meaningless and random sequence of bits.",
+      "term" : "Encryption",
+      "youtubeLink" : ""
+    },
+    "eos" : {
+      "definitions" : "EOS.IO is software that introduces a blockchain architecture designed to enable vertical and horizontal scaling of decentralized applications (the “EOS.IO Software”). This is achieved through an operating system-like construct upon which applications can be built. The software provides accounts, authentication, databases, asynchronous communication and the scheduling of applications across multiple CPU cores and/or clusters. The resulting technology is a blockchain architecture that has the potential to scale to millions of transactions per second, eliminates user fees and allows for quick and easy deployment of decentralized applications.",
+      "term" : "EOS",
+      "youtubeLink" : ""
+    },
+    "ether" : {
+      "definitions" : "Ether is the native token of the Ethereum blockchain which is used to pay for transaction fees, miner rewards and other services on the network.",
+      "term" : "Ether",
+      "youtubeLink" : ""
+    },
+    "ethereum" : {
+      "definitions" : "Ethereum is an open software platform based on blockchain technology that enables developers to write smart contracts and build and deploy decentralized applications.",
+      "term" : "Ethereum",
+      "youtubeLink" : ""
+    },
+    "ethereum classic" : {
+      "definitions" : "Ethereum Classic is a split from an existing cryptocurrency, Ethereum after a hard fork. Read up on The DAO in Cryptionary.",
+      "term" : "Ethereum Classic",
+      "youtubeLink" : ""
+    },
+    "evm code" : {
+      "definitions" : "EVM code is the programming language in which accounts on the Ethereum blockchain can contain code. The EVM code associated with an account is executed every time a message is sent to that account, and has the ability to read/write storage and itself send messages.",
+      "term" : "EVM Code",
+      "youtubeLink" : ""
+    },
+    "fiat currency " : {
+      "definitions" : "Fiat currency is any money declared by a government to be to be valid for meeting a financial obligation, like USD or EUR.",
+      "term" : "FIAT Currency ",
+      "youtubeLink" : ""
+    },
+    "fill or kill" : {
+      "definitions" : "A limit order that will not execute unless an opposite order exceeds this limit order’s amount.",
+      "term" : "Fill or Kill",
+      "youtubeLink" : ""
+    },
+    "fomo" : {
+      "definitions" : "Short form for ‘fear of missing out’. The feeling when you see a huge green dildo on a chart and you don’t own that coin, so you sell other shit to buy into it freaking out. As crypto trading is still very much driven by emotions rather than valuation, FOMO is a huge factor to consider when swing trading in crypto.",
+      "term" : "FOMO",
+      "youtubeLink" : ""
+    },
+    "fork" : {
+      "definitions" : "A fork is the creation of an ongoing alternative version of the blockchain, by creating two blocks simultaneously on different parts of the network. This creates two parallel blockchains, where one of the two is the winning blockchain.",
+      "term" : "Fork",
+      "youtubeLink" : ""
+    },
+    "fud" : {
+      "definitions" : "Short form for ‘fear, uncertainty and doubt’. Usually used in the form of “xxx spreading FUD again.” Example: JPMorgan’s Dimon spread FUD by saying Bitcoin is a fraud that will eventually blow up.",
+      "term" : "FUD",
+      "youtubeLink" : ""
+    },
+    "full node" : {
+      "definitions" : "A full node is a node that fully enforces all of the rules of the blockchain",
+      "term" : "Full Node",
+      "youtubeLink" : ""
+    },
+    "gas" : {
+      "definitions" : "Gas is a measurement roughly equivalent to computational steps (for Ethereum). Every transaction is required to include a gas limit and a fee that it is willing to pay per gas; miners have the choice of including the transaction and collecting the fee or not. Every operation has a gas expenditure; for most operations it is ~3–10, although some expensive operations have expenditures up to 700 and a transaction itself has an expenditure of 21000.",
+      "term" : "Gas",
+      "youtubeLink" : ""
+    },
+    "halving" : {
+      "definitions" : "Halving: Bitcoins have a finite supply, which makes them a scarce digital commodity. The total amount of bitcoins that will ever be issued is 21 million. The number of bitcoins generated per block is decreased 50% every four years. This is called “halving.” The final halving will take place in the year 2140.",
+      "term" : "Halving",
+      "youtubeLink" : ""
+    },
+    "hardfork" : {
+      "definitions" : "A hardfork is a change to the blockchain protocol that makes previously invalid blocks/transactions valid, and therefore requires all users to upgrade their clients.",
+      "term" : "Hardfork",
+      "youtubeLink" : ""
+    },
+    "hashcash" : {
+      "definitions" : "Hashcash is a proof-of-work system used to limit email spam and denial-of-service attacks, and more recently has become known for its use in bitcoin (and other cryptocurrencies) as part of the mining algorithm.",
+      "term" : "Hashcash",
+      "youtubeLink" : ""
+    },
+    "hashrate" : {
+      "definitions" : "Hashrate is the number of hashes that can be performed by a bitcoin miner in a given period of time (usually a second).",
+      "term" : "Hashrate",
+      "youtubeLink" : ""
+    },
+    "hodl" : {
+      "definitions" : "A misspelling of ‘hold’ that stuck around to mean ‘keep’. A crypto trader who buys a coin and does not see himself selling in the foreseeable future is called a hodler of the coin.",
+      "term" : "HODL",
+      "youtubeLink" : ""
+    },
+    "initial coin offering (ico)" : {
+      "definitions" : "Initial Coin Offering (ICO) is an event in which a new cryptocurrency sells advance tokens from its overall coinbase, in exchange for upfront capital. ICOs are frequently used for developers of a new cryptocurrency to raise capital.",
+      "term" : "Initial Coin Offering (ICO)",
+      "youtubeLink" : ""
+    },
+    "ipfs" : {
+      "definitions" : "Cryptojacking is referred as a secret use of a device to mine cryptocurrency. The first widely known attempt for cryptojacking was the torrent tracker Piratebay. They enabled an in-browser mining software so when somebody visits the website his/her computer will start mining cryptocurrency via the browser. Users started noticing the unusual behavior in their browsers and Piratebay took down the software. There have been many attempts for cryptojacking since then. The easiest way to find out if a computer is mining cryptocurrency is to check the resources monitor for unusual CPU behavior or using the debug console of your browser an look for mining scripts. Developers also released Chrome browser extensions to protect users from mining occurring on their devices.",
+      "term" : "IPFS",
+      "youtubeLink" : ""
+    },
+    "ledger" : {
+      "definitions" : "A ledger is an append-only record store, where records are immutable and may hold more general information than financial records.",
+      "term" : "Ledger",
+      "youtubeLink" : ""
+    },
+    "lending rate" : {
+      "definitions" : "Some exchanges have lending accounts. You may deposit your coins into these lending accounts to lend your coins for others to execute their leveraged trades. The lending rate fluctuates throughout the day based on the demand for shorting the coin.",
+      "term" : "Lending Rate",
+      "youtubeLink" : ""
+    },
+    "light node" : {
+      "definitions" : "A computer on a blockchain network that only verifies a limited number of transactions relevant to its dealings, making use of the simplified payment verification (SPV) mode",
+      "term" : "Light Node",
+      "youtubeLink" : ""
+    },
+    "lightning network" : {
+      "definitions" : "The Lightning network is a decentralized network using smart contract functionality on the blockchain to enable instant payments across a network of participants. The Lightning Network will allow bitcoin transactions to happen instantly, without worrying about block confirmation times. It will allow millions of transactions in a few seconds, at low costs, even between different blockchains, as long as both chains use the same cryptographic hash function. The Lightning network will allow two participants on the network to create a ledger entry, conduct a number of transactions between themselves and after the process has finished, record the state of the transactions on the blockchain. As for now, the bitcoin network is capable of processing up to 7 transactions per second. The Visa payment network, for instance, is believed to complete 45,000 transactions per second during a regular holiday period. This protocol tries to solve the bitcoin scalability problem",
+      "term" : "Lightning Network",
+      "youtubeLink" : ""
+    },
+    "limit order" : {
+      "definitions" : "An order placed at a future price that will execute when the price target is hit.",
+      "term" : "Limit Order",
+      "youtubeLink" : ""
+    },
+    "litecoin" : {
+      "definitions" : "Litecoin is a peer-to-peer cryptocurrency based on the Scrypt proof-of-work network. Sometimes referred to as the silver of bitcoin’s gold.",
+      "term" : "Litecoin",
+      "youtubeLink" : ""
+    },
+    "long" : {
+      "definitions" : "A position that a trader takes. To take a long position on something is to believe its value will rise in the future.",
+      "term" : "Long",
+      "youtubeLink" : ""
+    },
+    "margin trader" : {
+      "definitions" : "A term for ‘trading with leverage’. In this instance of trading, you borrow one side of the trading pair at an agreed loan rate and sell it for the other side of the trading pair. Depending on the direction you believe the market to move, you may place a long or a short bet on the trading pair of concern.",
+      "term" : "Margin Trader",
+      "youtubeLink" : ""
+    },
+    "market cap" : {
+      "definitions" : "A stock’s market cap refers to the market value of the company’s outstanding shares. In the cryptocurrency market, the market cap is used to illustrate a coin’s dominance in the entire cryptocurrency market.",
+      "term" : "Market Cap",
+      "youtubeLink" : ""
+    },
+    "merkle tree" : {
+      "definitions" : "The basic idea behind Merkle tree is to have some piece of data that is linking to another. You can do this by linking things together with a cryptographic hash. The content itself can be used to determine the hash. By using the cryptographic hashing we can address the content, and content gets immutable because if you change anything in the data, the cryptographic hash changes and the link will be different. Bitcoin uses cryptographic hashing, where every block points to the previous one if you modify the block, the hash will change and will make the block invalid",
+      "term" : "Merkle Tree",
+      "youtubeLink" : ""
+    },
+    "mining" : {
+      "definitions" : "Mining is the process by which transactions are verified and added to a blockchain. This process of solving cryptographic problems using computing hardware also triggers the release of cryptocurrencies.",
+      "term" : "Mining",
+      "youtubeLink" : ""
+    },
+    "monero" : {
+      "definitions" : "Monero (XMR) is a cryptonight algorithm based alternative crypto currency. The coin is based on Proof of Work and has a block reward that varies smoothly. The difficulty retargets every block with a sixty second block target.   Monero uses a Ring Signature system to protect your privacy, allowing users to make untraceable transactions.",
+      "term" : "Monero",
+      "youtubeLink" : ""
+    },
+    "moon" : {
+      "definitions" : "Extreme bullish movement of a coin.",
+      "term" : "Moon",
+      "youtubeLink" : ""
+    },
+    "multi-signature (multisig)" : {
+      "definitions" : "Multi-signature (multisig) addresses allow multiple parties to require more than one key to authorize a transaction. The needed number of signatures is agreed at the creation of the address. Multi signature addresses have a much greater resistance to theft.",
+      "term" : "Multi-signature (multisig)",
+      "youtubeLink" : ""
+    },
+    "neo" : {
+      "definitions" : "NEO is a platform in which users can issue and trade assets. NEO has been rebranded from the original 'Antshares'. NEO tokenizes proofs of ownership of an asset and not the asset itself, thus taking into account all of the legal complications and obligations that may come with the transfer of shares, equity and assets.  NEO represent an ownership of the NEO platform and allows users to buy NEO (ANC) and to vote on protocol changes on the NEO blockchain. ANS are 100% premined and issued on the NEO's genesis block.",
+      "term" : "NEO",
+      "youtubeLink" : ""
+    },
+    "node" : {
+      "definitions" : "A node is any computer that connects to the blockchain network.",
+      "term" : "Node",
+      "youtubeLink" : ""
+    },
+    "oracles" : {
+      "definitions" : "Smart contracts on the blockchain cannot access the outside network on their own. Therefore oracles sit between a smart contract and the external world, providing the data needed by the smart contract to prove performance while sending its commands to external systems",
+      "term" : "Oracles",
+      "youtubeLink" : ""
+    },
+    "peer-to-peer (p2p)" : {
+      "definitions" : "Peer-to-peer (P2P) refers to the decentralized interactions that happen between at least two parties in a highly interconnected network. P2P participants deal directly with each other through a single mediation point.",
+      "term" : "Peer-to-peer (P2P)",
+      "youtubeLink" : ""
+    },
+    "permissioned blockchain" : {
+      "definitions" : "Permissioned blockchains provide highly-verifiable data sets because the consensus process creates a digital signature, which can be seen by all parties.",
+      "term" : "Permissioned Blockchain",
+      "youtubeLink" : ""
+    },
+    "permissioned ledger" : {
+      "definitions" : "A permissioned ledger is a ledger where actors must have permission to access the ledger. Permissioned ledgers may have one or many owners. When a new record is added, the ledger’s integrity is checked by a limited consensus process. This is carried out by trusted actors — government departments or banks, for example — which makes maintaining a shared record much simpler that the consensus process used by unpermissioned ledgers.",
+      "term" : "Permissioned Ledger",
+      "youtubeLink" : ""
+    },
+    "private key" : {
+      "definitions" : "A private key is a string of data that shows you have access to bitcoins in a specific wallet. Private keys can be thought of as a password; private keys must never be revealed to anyone but you, as they allow you to spend the bitcoins from your bitcoin wallet through a cryptographic signature.",
+      "term" : "Private Key",
+      "youtubeLink" : ""
+    },
+    "proof of authority" : {
+      "definitions" : "Proof of Authority is a consensus mechanism in a private blockchain which essentially gives one client (or a specific number of clients) with one particular private key the right to make all of the blocks in the blockchain",
+      "term" : "Proof of Authority",
+      "youtubeLink" : ""
+    },
+    "proof of stake" : {
+      "definitions" : "Proof-of-stake (PoS) is a method by which a cryptocurrency blockchain network aims to achieve distributed consensus. While the proof-of-work (PoW) method asks users to repeatedly run hashing algorithms or other client puzzles, to validate electronic transactions, proof-of-stake asks users to prove ownership of a certain amount of currency (their “stake” in the currency). Peercoin was the first cryptocurrency to launch using proof-of-Stake. Other prominent implementations are found in BitShares, Nxt, BlackCoin, NuShares/NuBits and Qora. Ethereum has planned a hard fork transition from PoW to PoS consensus. Decred hybridizes PoW with PoS and combines elements of both in an attempt to garner the benefits of the two systems and create a more robust notion of consensus. With Proof of Work, the probability of mining a block depends on the work done by the miner (e.g. CPU/GPU cycles spent checking hashes). In the case of Bitcoin, with Proof of Stake, the resource that’s compared is the amount of Bitcoin a miner holds – someone holding 1% of the Bitcoin can mine 1% of the “Proof of Stake blocks”. Instead of sacrificing energy to mine a block, a user must prove they own a certain amount of the cryptocurrency to generate a block. The more stake you own, the more likely you are to generate a block. In theory, this should prevent users from creating forks because it will devalue their stake and it should save a lot of energy. Proof of Stake sounds like a good idea, but ironically, there is the “Nothing at Stake” problem. Since mining Bitcoins is costly, it is not smart to waste your energy on a fork that won’t earn you any money, however with Proof of Stake, it is free to mine a fork",
+      "term" : "Proof of Stake",
+      "youtubeLink" : ""
+    },
+    "proof of work" : {
+      "definitions" : "Proof of Work is a system that ties mining capability to computational power. Blocks must be hashed, which is in itself an easy computational process, but an additional variable is added to the hashing process to make it more difficult. When a block is successfully hashed, the hashing must have taken some time and computational effort. Thus, a hashed block is considered proof of work.",
+      "term" : "Proof of Work",
+      "youtubeLink" : ""
+    },
+    "protocols" : {
+      "definitions" : "Protocols are sets of formal rules describing how to transmit or exchange data, especially across a network.",
+      "term" : "Protocols",
+      "youtubeLink" : ""
+    },
+    "pump & dump" : {
+      "definitions" : "The recurring cycle of an Altcoin getting a spike in price followed by a huge crash. Such movements are often attributed to low volume, hence the ‘pump’. Traders who pump, buying huge volumes, may wish to invoke FOMO from the uninformed investors and then dump, or sell, their coins at a higher price.",
+      "term" : "Pump & Dump",
+      "youtubeLink" : ""
+    },
+    "ring signature" : {
+      "definitions" : "Ring signature is a cryptographic technology that could provide a decent level of anonymisation on a blockchain. Ring signatures make sure individual transaction outputs on the blockchain can’t be traced. A message signed with a ring signature is endorsed by someone in a particular group of people. One of the security properties of a ring signature is that it should be computationally infeasible to determine which of the group members’ keys was used to produce the signature",
+      "term" : "Ring Signature",
+      "youtubeLink" : ""
+    },
+    "ripple" : {
+      "definitions" : "Ripple is a payment network built on distributed ledgers that can be used to transfer any currency. The network consists of payment nodes and gateways operated by authorities. Payments are made using a series of IOUs, and the network is based on trust relationships.",
+      "term" : "Ripple",
+      "youtubeLink" : ""
+    },
+    "satoshi" : {
+      "definitions" : "The smallest unit of Bitcoin, equal to 0.00000001 (one hundred millionth) BTC",
+      "term" : "Satoshi",
+      "youtubeLink" : ""
+    },
+    "satoshi nakamoto" : {
+      "definitions" : "Satoshi Nakamoto is a person or group of people who created the bitcoin protocol and reference software, Bitcoin Core (formerly known as Bitcoin-Qt). In 2008, Nakamoto published a paper on The Cryptography Mailing list at metzdowd.com describing the bitcoin digital currency. In 2009, they released the first bitcoin software that launched the network and the first units of the bitcoin cryptocurrency, called bitcoins",
+      "term" : "Satoshi Nakamoto",
+      "youtubeLink" : ""
+    },
+    "scrypt" : {
+      "definitions" : "A scrypt is an alternative proof of work system to SHA-256, designed to be particularly friendly to CPU and GPU miners, while offering little advantage to ASIC miners.",
+      "term" : "Scrypt",
+      "youtubeLink" : ""
+    },
+    "sha 256" : {
+      "definitions" : "SHA 256 is the cryptographic function used as the basis for bitcoin’s proof of work system.",
+      "term" : "SHA 256",
+      "youtubeLink" : ""
+    },
+    "shill" : {
+      "definitions" : "The act of unsolicited endorsing of the coin in public. Traders who bought a coin has an interest in shilling the coin, in hopes of igniting the public’s interest in that particular coin.",
+      "term" : "Shill",
+      "youtubeLink" : ""
+    },
+    "short" : {
+      "definitions" : "A position that a trader takes. To take a short position on a coin is to believe its value will fall in the future.",
+      "term" : "Short",
+      "youtubeLink" : ""
+    },
+    "sidechain" : {
+      "definitions" : "Put simply, sidechaining is any mechanism that allows tokens from one blockchain to be securely used within a completely separate blockchain but still moved back to the original chain if necessary. By convention the original chain is normally referred to as the \"main chain\", while any additional blockchains which allow users to transact within them in the tokens of the main chain are referred to as \"sidechains\". For example, a private Ethereum-based network that had a linkage allowing ether to be securely moved from the public Ethereum main chain onto it and back would be considered to be a sidechain of the public network.",
+      "term" : "Sidechain",
+      "youtubeLink" : ""
+    },
+    "smart contracts" : {
+      "definitions" : "Smart contracts are computer protocols that facilitate, verify, or enforce the negotiation or performance of a contract, or that obviate the need for a contractual clause. Smart contracts usually also have a user interface and often emulate the logic of contractual clauses. Proponents of smart contracts claim that many kinds of contractual clauses may thus be made partially or fully self-executing, self-enforcing, or both. Smart contracts aim to provide security superior to traditional contract law and to reduce other transaction costs associated with contracting",
+      "term" : "Smart Contracts",
+      "youtubeLink" : ""
+    },
+    "softfork" : {
+      "definitions" : "A softfork is a change to the bitcoin protocol wherein only previously valid blocks/transactions are made invalid. Since old nodes will recognize the new blocks as valid, a softfork is backward-compatible. This kind of fork requires only a majority of the miners upgrading to enforce the new rules",
+      "term" : "Softfork",
+      "youtubeLink" : ""
+    },
+    "solidity" : {
+      "definitions" : "Solidity is a programming language designed for developing smart contracts. Its syntax is similar to that of JavaScript, and it is intended to compile into bytecode for the Ethereum Virtual Machine(EVM)",
+      "term" : "Solidity",
+      "youtubeLink" : ""
+    },
+    "state channels" : {
+      "definitions" : "State channels are interactions which get conducted off the blockchain without significantly increasing the risk of any participant. Moving these interactions off of the chain without requiring any additional trust can lead to significant improvements in cost and speed. State channels work by locking part of the blockchain state so that a specific set of participants must completely agree with each other to update it",
+      "term" : "State Channels",
+      "youtubeLink" : ""
+    },
+    "stellar" : {
+      "definitions" : "Stellar is public infrastructure for money.  Supported by a nonprofit, Stellar brings the world together by increasing interoperability between diverse financial systems and currencies.  Stellar is a technology that enables money to move directly between people, companies and financial institutions as easily as email. This means more access for individuals, lower costs for banks, and more revenue for businesses. Help better the world’s financial infrastructure by participating in our community or by building on Stellar.",
+      "term" : "Stellar",
+      "youtubeLink" : ""
+    },
+    "stream ciphers" : {
+      "definitions" : "Stream ciphers are a method of encrypting text (cyphertext) in which a cryptographic key and algorithm are applied to each binary digit in a data stream, one bit at a time.",
+      "term" : "Stream Ciphers",
+      "youtubeLink" : ""
+    },
+    "testnet" : {
+      "definitions" : "A second blockchain used by developers for testing new versions of client software without putting a real value at risk",
+      "term" : "Testnet",
+      "youtubeLink" : ""
+    },
+    "the dao " : {
+      "definitions" : "The DAO was a digital decentralized autonomous organization, and a form of investor-directed venture capital fund. The DAO had an objective to provide a new decentralized business model for organizing both commercial and non-profit enterprises. It was instantiated on the Ethereum blockchain, and had no conventional management structure or board of directors. In June 2016, users exploited a vulnerability in the DAO code to enable them to siphon off one third of The DAO's funds to a subsidiary account. On 20 July 2016 01:20:40 PM +UTC at Block 1920000, the Ethereum community decided to hard-fork the Ethereum blockchain to restore virtually all funds to the original contract. This was controversial, and led to a fork in Ethereum, where the original unforked blockchain was maintained as Ethereum Classic, thus breaking Ethereum into two separate active blockchains, each with its own cryptocurrency.",
+      "term" : "The DAO ",
+      "youtubeLink" : ""
+    },
+    "token" : {
+      "definitions" : "In the context of Blockchains, a token is a digital identity for something that can be owned. Today, modern tokens are created as sophisticated smart contract systems with complex permission systems and interaction paths attached. Smart contracts can be understood as software agents, which act deterministically and autonomously, within the scope of a given network, according to a predefined rule set.",
+      "term" : "Token",
+      "youtubeLink" : ""
+    },
+    "tokenless ledger" : {
+      "definitions" : "A tokenless ledger refers to a distributed ledger that doesn’t require a native currency to operate.",
+      "term" : "Tokenless Ledger",
+      "youtubeLink" : ""
+    },
+    "transaction block" : {
+      "definitions" : "A transaction block is a collection of transactions on the bitcoin network, gathered into a block that can then be hashed and added to the blockchain.",
+      "term" : "Transaction Block",
+      "youtubeLink" : ""
+    },
+    "transaction fees" : {
+      "definitions" : "Transaction fees are small fees imposed on some transactions sent across the bitcoin network. The transaction fee is awarded to the miner that successfully hashes the block containing the relevant transaction.",
+      "term" : "Transaction Fees",
+      "youtubeLink" : ""
+    },
+    "turing completeness" : {
+      "definitions" : "A machine is Turing complete if it can perform any calculation that any other programmable computer is capable of. All modern computers are Turing-complete in this sense. The Ethereum Virtual Machine (EVM) which runs on the Ethereum blockchain is Turing complete. Thus it can process any “computable function”. It is, in short, able to do what you could do with any conventional computer and programming language",
+      "term" : "Turing Completeness",
+      "youtubeLink" : ""
+    },
+    "unpermissioned ledgers" : {
+      "definitions" : "Unpermissioned ledgers such as Bitcoin have no single owner — indeed, they cannot be owned. The purpose of an unpermissioned ledger is to allow anyone to contribute data to the ledger and for everyone in possession of the ledger to have identical copies.",
+      "term" : "Unpermissioned Ledgers",
+      "youtubeLink" : ""
+    },
+    "wallet" : {
+      "definitions" : "A wallet is a file that contains a collection of private keys",
+      "term" : "Wallet",
+      "youtubeLink" : ""
+    },
+    "weak hands" : {
+      "definitions" : "Those who cannot be patient and sell at loss when the market is down.",
+      "term" : "Weak Hands",
+      "youtubeLink" : ""
+    },
+    "whale" : {
+      "definitions" : "A huge player who has a substantial amount of capital. Whales are often the market movers for small alt-coins too due to their huge capital.",
+      "term" : "Whale",
+      "youtubeLink" : ""
+    }
+    }
+}

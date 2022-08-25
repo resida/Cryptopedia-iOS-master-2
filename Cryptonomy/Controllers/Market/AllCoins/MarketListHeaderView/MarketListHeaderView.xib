@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Medium.otf">
+            <string>CircularStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MarketListHeaderView" customModule="Cryptonomy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dPI-8u-P6n">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f4W-XI-e43">
+                            <rect key="frame" x="12" y="19.5" width="23" height="12"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="12" id="LQ2-8q-K7o"/>
+                                <constraint firstAttribute="width" constant="23" id="jS2-NV-D8m"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="11"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1v-k9-am9">
+                            <rect key="frame" x="41" y="19.5" width="106" height="12"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="12" id="Iln-HN-Uu8"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="11"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="PRICE" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tpg-HC-LzV">
+                            <rect key="frame" x="167" y="19.5" width="70" height="12"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="12" id="Ep4-fy-K1g"/>
+                                <constraint firstAttribute="width" constant="70" id="yC4-uh-g4W"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="11"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="CHANGE" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5h8-f0-2xn">
+                            <rect key="frame" x="245" y="19.5" width="51" height="12"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="12" id="X3O-ys-jNj"/>
+                                <constraint firstAttribute="width" constant="51" id="zwU-iD-aiK"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="11"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="M.CAP" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egm-ii-ZXW">
+                            <rect key="frame" x="299" y="19.5" width="66" height="12"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="12" id="8yT-dj-QYv"/>
+                                <constraint firstAttribute="width" constant="66" id="yzb-2l-QGc"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="11"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.95294117647058818" blue="0.97647058823529409" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="egm-ii-ZXW" firstAttribute="centerY" secondItem="dPI-8u-P6n" secondAttribute="centerY" id="DJv-Ee-qnp"/>
+                        <constraint firstAttribute="trailing" secondItem="egm-ii-ZXW" secondAttribute="trailing" constant="10" id="XyJ-3g-vIA"/>
+                        <constraint firstItem="Tpg-HC-LzV" firstAttribute="leading" secondItem="Z1v-k9-am9" secondAttribute="trailing" constant="20" id="Z7o-AU-KNi"/>
+                        <constraint firstItem="Tpg-HC-LzV" firstAttribute="centerY" secondItem="dPI-8u-P6n" secondAttribute="centerY" id="aHz-as-xxd"/>
+                        <constraint firstItem="5h8-f0-2xn" firstAttribute="leading" secondItem="Tpg-HC-LzV" secondAttribute="trailing" constant="8" id="f6i-AU-p64"/>
+                        <constraint firstItem="Z1v-k9-am9" firstAttribute="leading" secondItem="f4W-XI-e43" secondAttribute="trailing" constant="6" id="ggt-AT-mcB"/>
+                        <constraint firstItem="Z1v-k9-am9" firstAttribute="centerY" secondItem="dPI-8u-P6n" secondAttribute="centerY" id="iWy-gx-O1n"/>
+                        <constraint firstItem="f4W-XI-e43" firstAttribute="leading" secondItem="dPI-8u-P6n" secondAttribute="leading" constant="12" id="jDP-PD-O3z"/>
+                        <constraint firstItem="5h8-f0-2xn" firstAttribute="centerY" secondItem="dPI-8u-P6n" secondAttribute="centerY" id="sHM-Of-XTc"/>
+                        <constraint firstItem="f4W-XI-e43" firstAttribute="centerY" secondItem="dPI-8u-P6n" secondAttribute="centerY" id="xr4-am-RaT"/>
+                        <constraint firstItem="egm-ii-ZXW" firstAttribute="leading" secondItem="5h8-f0-2xn" secondAttribute="trailing" constant="3" id="yNr-Ua-DPe"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="dPI-8u-P6n" secondAttribute="trailing" id="8QC-1y-nlE"/>
+                <constraint firstAttribute="bottom" secondItem="dPI-8u-P6n" secondAttribute="bottom" id="DNi-HM-yD6"/>
+                <constraint firstItem="dPI-8u-P6n" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="b3C-6M-BUO"/>
+                <constraint firstItem="dPI-8u-P6n" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uUe-3X-r8m"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-29.5" y="-310"/>
+        </view>
+    </objects>
+</document>

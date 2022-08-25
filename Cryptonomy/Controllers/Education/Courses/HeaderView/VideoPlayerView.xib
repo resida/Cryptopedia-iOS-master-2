@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VideoPlayerView" customModule="Cryptonomy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XPh-06-DRa">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WsH-oW-Cfy" customClass="YTPlayerView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="WsH-oW-Cfy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0AK-4s-bjg"/>
+                <constraint firstItem="XPh-06-DRa" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="ND8-Vg-hb2"/>
+                <constraint firstItem="XPh-06-DRa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Plq-SQ-7fa"/>
+                <constraint firstAttribute="trailing" secondItem="WsH-oW-Cfy" secondAttribute="trailing" id="fSG-uf-WER"/>
+                <constraint firstItem="WsH-oW-Cfy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="oxv-lw-kIG"/>
+                <constraint firstItem="WsH-oW-Cfy" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="rjP-7S-dYU"/>
+                <constraint firstItem="XPh-06-DRa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rl5-f9-4O3"/>
+                <constraint firstItem="XPh-06-DRa" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="y2S-KE-RHP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="player" destination="WsH-oW-Cfy" id="9Hg-dE-pfE"/>
+            </connections>
+            <point key="canvasLocation" x="-136.5" y="34.5"/>
+        </view>
+    </objects>
+</document>

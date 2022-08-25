@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+        <array key="CircularStd-Medium.otf">
+            <string>CircularStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="IcoSummaryCell" id="HBz-sx-P3i" customClass="IcoSummaryCell" customModule="Cryptonomy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="134"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HBz-sx-P3i" id="3N8-yn-mow">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="133.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Ir-kd-YDd" userLabel="Title Image View" customClass="PrImageView" customModule="Cryptonomy" customModuleProvider="target">
+                        <rect key="frame" x="8" y="8" width="50" height="50"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="VFQ-Nj-ppf"/>
+                            <constraint firstAttribute="height" constant="50" id="cn9-7F-44M"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAd-1G-XVz" userLabel="Title Label">
+                        <rect key="frame" x="66" y="8" width="43" height="22"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1vR-Fb-1X7" userLabel="Description Label">
+                        <rect key="frame" x="66" y="38" width="34.5" height="18"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gkL-dM-WxX" userLabel="Rating Label">
+                        <rect key="frame" x="8" y="66" width="50" height="16.5"/>
+                        <color key="backgroundColor" red="0.1176470588" green="0.56470588239999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PRE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CuI-Gh-QSi" userLabel="Pre-ICO Title Label">
+                        <rect key="frame" x="8" y="91" width="50" height="15.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="235-aK-Ftc" userLabel="Pre-ICO Date Label">
+                        <rect key="frame" x="66" y="91" width="32" height="15.5"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ICO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYk-mg-LJV" userLabel="ICO Title Label">
+                        <rect key="frame" x="8" y="110.5" width="50" height="15.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vJA-xu-mQM" userLabel="ICO Date Label">
+                        <rect key="frame" x="66" y="110.5" width="32" height="15.5"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GEx-d9-rJv" userLabel="Separator">
+                        <rect key="frame" x="0.0" y="133" width="375" height="0.5"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="sss-u1-gnR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1vR-Fb-1X7" firstAttribute="top" secondItem="ZAd-1G-XVz" secondAttribute="bottom" constant="8" id="33X-54-BXt"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vJA-xu-mQM" secondAttribute="trailing" constant="8" id="BQG-Op-s3Q"/>
+                    <constraint firstItem="1Ir-kd-YDd" firstAttribute="top" secondItem="3N8-yn-mow" secondAttribute="top" constant="8" id="Bx2-Gn-IlE"/>
+                    <constraint firstAttribute="trailing" secondItem="GEx-d9-rJv" secondAttribute="trailing" id="DaX-u6-UlU"/>
+                    <constraint firstAttribute="bottom" secondItem="IYk-mg-LJV" secondAttribute="bottom" constant="7.5" id="Ged-mF-itM"/>
+                    <constraint firstItem="IYk-mg-LJV" firstAttribute="bottom" secondItem="vJA-xu-mQM" secondAttribute="bottom" id="H8m-KM-UeA"/>
+                    <constraint firstItem="CuI-Gh-QSi" firstAttribute="top" secondItem="235-aK-Ftc" secondAttribute="top" id="I0o-Yg-Miv"/>
+                    <constraint firstItem="1vR-Fb-1X7" firstAttribute="leading" secondItem="1Ir-kd-YDd" secondAttribute="trailing" constant="8" id="LNg-9s-AMP"/>
+                    <constraint firstItem="IYk-mg-LJV" firstAttribute="trailing" secondItem="1Ir-kd-YDd" secondAttribute="trailing" id="MCQ-50-V8P"/>
+                    <constraint firstItem="ZAd-1G-XVz" firstAttribute="top" secondItem="3N8-yn-mow" secondAttribute="top" constant="8" id="Op7-R9-dSN"/>
+                    <constraint firstAttribute="bottom" secondItem="GEx-d9-rJv" secondAttribute="bottom" id="Rze-d8-PH4"/>
+                    <constraint firstItem="vJA-xu-mQM" firstAttribute="leading" secondItem="IYk-mg-LJV" secondAttribute="trailing" constant="8" id="VlM-qR-zKr"/>
+                    <constraint firstItem="1Ir-kd-YDd" firstAttribute="leading" secondItem="3N8-yn-mow" secondAttribute="leading" constant="8" id="X4D-4r-auo"/>
+                    <constraint firstItem="CuI-Gh-QSi" firstAttribute="leading" secondItem="1Ir-kd-YDd" secondAttribute="leading" id="Ywc-nP-fzq"/>
+                    <constraint firstItem="CuI-Gh-QSi" firstAttribute="top" relation="greaterThanOrEqual" secondItem="1vR-Fb-1X7" secondAttribute="bottom" constant="8" id="ZNE-Ij-Qls"/>
+                    <constraint firstItem="gkL-dM-WxX" firstAttribute="leading" secondItem="1Ir-kd-YDd" secondAttribute="leading" id="cFa-4A-nD3"/>
+                    <constraint firstItem="CuI-Gh-QSi" firstAttribute="top" relation="greaterThanOrEqual" secondItem="gkL-dM-WxX" secondAttribute="bottom" constant="8" id="dKb-X0-fov"/>
+                    <constraint firstItem="CuI-Gh-QSi" firstAttribute="bottom" secondItem="235-aK-Ftc" secondAttribute="bottom" id="do4-OI-2Mq"/>
+                    <constraint firstItem="IYk-mg-LJV" firstAttribute="top" secondItem="vJA-xu-mQM" secondAttribute="top" id="eCZ-ej-TRM"/>
+                    <constraint firstItem="235-aK-Ftc" firstAttribute="leading" secondItem="CuI-Gh-QSi" secondAttribute="trailing" constant="8" id="fgT-WX-oT6"/>
+                    <constraint firstItem="gkL-dM-WxX" firstAttribute="trailing" secondItem="1Ir-kd-YDd" secondAttribute="trailing" id="gDI-Cv-euX"/>
+                    <constraint firstItem="IYk-mg-LJV" firstAttribute="top" secondItem="CuI-Gh-QSi" secondAttribute="bottom" constant="4" id="gM2-7Y-dR3"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="235-aK-Ftc" secondAttribute="trailing" constant="8" id="ghF-oZ-Yn5"/>
+                    <constraint firstItem="ZAd-1G-XVz" firstAttribute="leading" secondItem="1Ir-kd-YDd" secondAttribute="trailing" constant="8" id="guX-Ok-oNX"/>
+                    <constraint firstItem="IYk-mg-LJV" firstAttribute="leading" secondItem="1Ir-kd-YDd" secondAttribute="leading" id="h8V-Hb-Kvs"/>
+                    <constraint firstItem="gkL-dM-WxX" firstAttribute="top" secondItem="1Ir-kd-YDd" secondAttribute="bottom" constant="8" id="hgL-o4-CsY"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZAd-1G-XVz" secondAttribute="trailing" constant="8" id="jyV-an-Sid"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1vR-Fb-1X7" secondAttribute="trailing" constant="8" id="lzB-Sh-U07"/>
+                    <constraint firstItem="GEx-d9-rJv" firstAttribute="leading" secondItem="3N8-yn-mow" secondAttribute="leading" id="mj0-hf-0NT"/>
+                    <constraint firstItem="CuI-Gh-QSi" firstAttribute="trailing" secondItem="1Ir-kd-YDd" secondAttribute="trailing" id="zlB-4X-kNw"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="1vR-Fb-1X7" id="yV7-cj-v7R"/>
+                <outlet property="icoDateLabel" destination="vJA-xu-mQM" id="XCF-Ga-RT5"/>
+                <outlet property="icoTitleLabel" destination="IYk-mg-LJV" id="wfA-r2-7dH"/>
+                <outlet property="preIcoDateLabel" destination="235-aK-Ftc" id="tsj-bQ-CSg"/>
+                <outlet property="preIcoTitleLabel" destination="CuI-Gh-QSi" id="zoq-0a-XML"/>
+                <outlet property="ratingLabel" destination="gkL-dM-WxX" id="qMD-rZ-E08"/>
+                <outlet property="titleImageView" destination="1Ir-kd-YDd" id="IxY-8B-V9E"/>
+                <outlet property="titleLabel" destination="ZAd-1G-XVz" id="6Rd-T7-oDa"/>
+            </connections>
+            <point key="canvasLocation" x="20.5" y="-26"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Book.otf">
+            <string>CircularStd-Book</string>
+        </array>
+        <array key="CircularStd-Medium.otf">
+            <string>CircularStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="IcoMilestoneCell" id="z5J-Qg-rQy" customClass="IcoMilestoneCell" customModule="Cryptonomy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="z5J-Qg-rQy" id="iz9-LI-Vd3">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="75.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uq9-pc-B8E" userLabel="Left Title Label">
+                        <rect key="frame" x="8" y="16" width="169" height="19"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbg-kq-ZbL" userLabel="Left Content Label">
+                        <rect key="frame" x="8" y="43" width="169" height="16.5"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXQ-l3-amC" userLabel="Center Line">
+                        <rect key="frame" x="185" y="0.0" width="4" height="75.5"/>
+                        <color key="backgroundColor" red="0.1176470588" green="0.56470588239999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="4" id="S4S-QQ-fnv"/>
+                        </constraints>
+                    </view>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mlm-xP-cW7" userLabel="Dot View">
+                        <rect key="frame" x="179.5" y="18" width="15" height="15"/>
+                        <color key="backgroundColor" red="0.1176470588" green="0.56470588239999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="hdf-2R-S1X"/>
+                            <constraint firstAttribute="width" constant="15" id="jEI-bR-r7U"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2C-gx-ced" userLabel="Right Title Label">
+                        <rect key="frame" x="197" y="16" width="170" height="19"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9le-Q5-mKw" userLabel="Right Content Label">
+                        <rect key="frame" x="197" y="43" width="170" height="16.5"/>
+                        <fontDescription key="fontDescription" name="CircularStd-Book" family="Circular Std" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hXQ-l3-amC" firstAttribute="leading" secondItem="Uq9-pc-B8E" secondAttribute="trailing" constant="8" id="0Rp-uu-oP3"/>
+                    <constraint firstItem="Uq9-pc-B8E" firstAttribute="leading" secondItem="iz9-LI-Vd3" secondAttribute="leading" constant="8" id="6DA-V5-37d"/>
+                    <constraint firstItem="Mlm-xP-cW7" firstAttribute="centerX" secondItem="iz9-LI-Vd3" secondAttribute="centerX" id="6fy-vu-vsN"/>
+                    <constraint firstItem="n2C-gx-ced" firstAttribute="leading" secondItem="hXQ-l3-amC" secondAttribute="trailing" constant="8" id="B4M-LN-9lF"/>
+                    <constraint firstItem="n2C-gx-ced" firstAttribute="top" secondItem="iz9-LI-Vd3" secondAttribute="top" constant="16" id="Dwl-Ia-ftC"/>
+                    <constraint firstAttribute="trailing" secondItem="9le-Q5-mKw" secondAttribute="trailing" constant="8" id="ERE-ZD-Dp2"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="9le-Q5-mKw" secondAttribute="bottom" constant="16" id="FTb-tN-g27"/>
+                    <constraint firstItem="9le-Q5-mKw" firstAttribute="top" secondItem="n2C-gx-ced" secondAttribute="bottom" constant="8" id="JDR-j1-lRZ"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="mbg-kq-ZbL" secondAttribute="bottom" constant="16" id="JRS-HS-LQw"/>
+                    <constraint firstItem="Mlm-xP-cW7" firstAttribute="top" secondItem="iz9-LI-Vd3" secondAttribute="top" constant="18" id="RaA-Ph-RHU"/>
+                    <constraint firstItem="9le-Q5-mKw" firstAttribute="leading" secondItem="hXQ-l3-amC" secondAttribute="trailing" constant="8" id="S4a-q5-wbN"/>
+                    <constraint firstItem="hXQ-l3-amC" firstAttribute="leading" secondItem="mbg-kq-ZbL" secondAttribute="trailing" constant="8" id="SA6-rc-zqH"/>
+                    <constraint firstItem="mbg-kq-ZbL" firstAttribute="leading" secondItem="iz9-LI-Vd3" secondAttribute="leading" constant="8" id="UjQ-xt-HjS"/>
+                    <constraint firstAttribute="bottom" secondItem="hXQ-l3-amC" secondAttribute="bottom" id="YPk-Q8-IBZ"/>
+                    <constraint firstItem="Uq9-pc-B8E" firstAttribute="top" secondItem="iz9-LI-Vd3" secondAttribute="top" constant="16" id="Z6r-Ii-mGu"/>
+                    <constraint firstItem="mbg-kq-ZbL" firstAttribute="top" secondItem="Uq9-pc-B8E" secondAttribute="bottom" constant="8" id="eJs-uE-92L"/>
+                    <constraint firstItem="hXQ-l3-amC" firstAttribute="centerX" secondItem="iz9-LI-Vd3" secondAttribute="centerX" id="l2F-Fj-ctA"/>
+                    <constraint firstItem="hXQ-l3-amC" firstAttribute="top" secondItem="iz9-LI-Vd3" secondAttribute="top" id="uLN-7q-imA"/>
+                    <constraint firstAttribute="trailing" secondItem="n2C-gx-ced" secondAttribute="trailing" constant="8" id="uPU-Xh-Vb7"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dotView" destination="Mlm-xP-cW7" id="Ltl-Jc-FIf"/>
+                <outlet property="leftContentLabel" destination="mbg-kq-ZbL" id="YzB-e8-7qH"/>
+                <outlet property="leftTitleLabel" destination="Uq9-pc-B8E" id="t3m-EE-DQu"/>
+                <outlet property="rightContentLabel" destination="9le-Q5-mKw" id="fUC-ft-zB6"/>
+                <outlet property="rightTitleLabel" destination="n2C-gx-ced" id="qqT-ha-Yhv"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

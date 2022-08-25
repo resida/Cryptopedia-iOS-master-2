@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="CircularStd-Medium.otf">
+            <string>CircularStd-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MarketListCell" rowHeight="60" id="KGk-i7-Jjw" customClass="MarketListCell" customModule="Cryptonomy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="59.666666666666664"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="kuM-zE-Lq6">
+                        <rect key="frame" x="10" y="22" width="25" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="25" id="cHb-Gd-O1k"/>
+                            <constraint firstAttribute="height" constant="15" id="sTS-GA-2LC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="12"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" image="placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="Stu-1g-SOX">
+                        <rect key="frame" x="41" y="22.333333333333332" width="15" height="14.999999999999996"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="15" id="eCs-qI-k5e"/>
+                            <constraint firstAttribute="height" constant="15" id="kUI-IU-7VN"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bitcoin Cash nice solution" textAlignment="natural" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U77-ex-CsP">
+                        <rect key="frame" x="62" y="22" width="101" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="2MM-8u-fXl"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="$7,458.23" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="pol-Lc-o0M">
+                        <rect key="frame" x="167.66666666666666" y="22" width="70" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="gD6-ph-C9q"/>
+                            <constraint firstAttribute="width" constant="70" id="wCP-JC-pX4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="-18.63%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="k7T-Eh-hvs">
+                        <rect key="frame" x="241" y="22" width="55" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="3rI-ls-viP"/>
+                            <constraint firstAttribute="width" constant="55" id="H3z-w1-4yy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
+                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="$3078.0B" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="brj-qB-nhh">
+                        <rect key="frame" x="299" y="22" width="66" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="66" id="JEc-eu-8Y4"/>
+                            <constraint firstAttribute="height" constant="15" id="wJy-sV-bxK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="CircularStd-Medium" family="Circular Std" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="k7T-Eh-hvs" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0OO-T4-rLn"/>
+                    <constraint firstItem="Stu-1g-SOX" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="493-EP-aGJ"/>
+                    <constraint firstItem="pol-Lc-o0M" firstAttribute="leading" secondItem="U77-ex-CsP" secondAttribute="trailing" constant="4.6699999999999999" id="BLg-rN-G2V"/>
+                    <constraint firstItem="pol-Lc-o0M" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="KDq-z7-gcL"/>
+                    <constraint firstItem="brj-qB-nhh" firstAttribute="leading" secondItem="k7T-Eh-hvs" secondAttribute="trailing" constant="3" id="X0Z-uK-AdC"/>
+                    <constraint firstItem="kuM-zE-Lq6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="cLD-Kb-Dm6"/>
+                    <constraint firstItem="Stu-1g-SOX" firstAttribute="leading" secondItem="kuM-zE-Lq6" secondAttribute="trailing" constant="6" id="dYI-Eg-Heg"/>
+                    <constraint firstAttribute="trailing" secondItem="brj-qB-nhh" secondAttribute="trailing" constant="10" id="iiE-rI-qme"/>
+                    <constraint firstItem="brj-qB-nhh" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="mfU-rT-JxS"/>
+                    <constraint firstItem="U77-ex-CsP" firstAttribute="leading" secondItem="Stu-1g-SOX" secondAttribute="trailing" constant="6" id="q7j-L6-wZQ"/>
+                    <constraint firstItem="k7T-Eh-hvs" firstAttribute="leading" secondItem="pol-Lc-o0M" secondAttribute="trailing" constant="3.3300000000000001" id="q9g-3p-zCy"/>
+                    <constraint firstItem="U77-ex-CsP" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qcC-NN-Nlz"/>
+                    <constraint firstItem="kuM-zE-Lq6" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="y7z-5i-EF2"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="coinImage" destination="Stu-1g-SOX" id="O5g-hJ-c9u"/>
+                <outlet property="lblChange" destination="k7T-Eh-hvs" id="iZd-9z-No5"/>
+                <outlet property="lblIndexNo" destination="kuM-zE-Lq6" id="Xm4-ql-yGy"/>
+                <outlet property="lblMarketCap" destination="brj-qB-nhh" id="8f6-YH-xhl"/>
+                <outlet property="lblName" destination="U77-ex-CsP" id="Lb1-wt-Uxf"/>
+                <outlet property="lblPrice" destination="pol-Lc-o0M" id="Edq-Q4-c71"/>
+            </connections>
+            <point key="canvasLocation" x="-203" y="-158"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder" width="60" height="60"/>
+    </resources>
+</document>
